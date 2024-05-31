@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/*plan_share.jsp ui*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background-image: url("../images/bluesky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.post{
+   width : 1600px; height:430px;
+   border:5px solid white;
+   justify-content: space-around;
+   background-color: transparent;
+   border-radius: 10px; color:#fff;  
+   margin-top: 50px; margin-bottom:-10px; margin-left: 220px; 
+   overflow:scroll; /*콘텐츠 내용이 박스크기를 넘어가면 스크롤*/ 
+   overflow-x:hidden;
+   justify-content: space-between;
+   gap: 10px; padding: 10px;
+}
+
+.part1 img{
+    width:300px; height:400px;
+    border:3px solid white; background-color:transparent;
+    border-radius: 10px; float:left;
+    margin-top:10px; margin-left : 30px; 
+   
+}
+
+.part2 img{
+    width:550px; height:600px;
+    border:3px solid white; background-color:transparent;
+    border-radius: 10px; float:left;
+    margin-left : 50px; margin-top:10px; margin-bottom:10px;
+}
+
+.part3 img{
+    width:550px; height:600px;
+    border:3px solid white; background-color:transparent;
+    border-radius: 10px;
+    margin-left:50px; margin-top:10px; margin-bottom:10px;
+}
+
+/* 좋아요 하트 */
+#btn-like {
+	margin-top:-400px;
+}
+
+#btn-like>i {
+    font-size: 80px; margin-left:50px;
+}
+
+.bi-heart-fill,.bi-heart {
+     color: pink;
+}
+
+.reply{
+   width : 1600px; height:250px;
+   border:5px solid white;
+   justify-content: space-around; background-color: transparent;
+   border-radius: 10px;  color:#fff;  
+   margin-top: 350px; margin-bottom:20px; margin-left: 220px; 
+   overflow:scroll; /*콘텐츠 내용이 박스크기를 넘어가면 스크롤*/ 
+   overflow-x:hidden;    
+}
+
+.reply_cont{
+	margin-left:80px;
+}
+
+#sreplyAddBtn {
+    margin-left: 10px;
+}    
